@@ -1,0 +1,68 @@
+
+
+nav{
+  width: 100%;
+ height: 100px;
+background-color: $color1;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 1 $p;
+position: sticky;
+background-color: rgb(237, 237, 233);
+ top: 0%;
+ z-index: 60;
+
+ > h2 {
+          font-size: 2rem;
+          margin-left: 2rem;
+          &:hover{
+            color: rgb(250, 143, 12);
+          }
+ }
+
+> div{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+
+  a {
+    color: $color6;
+    font-weight: 500;
+    transition: all 0.3s;
+    letter-spacing: 1px;
+    &:hover {
+      color: red;
+    }
+  }
+}
+> a > button {
+          border: 1px solid black;
+          padding: 0.5rem 2rem;
+          background-color: $color1;
+          cursor: pointer;
+          color: $color6;
+          letter-spacing: 1px;
+          font-weight: 500;
+          margin-right: 2rem;
+          font-weight: 500;
+          transition: all 0.3s;
+          &:hover {
+            background-color: black;
+            color: $color1;
+          }
+        }
+         > button{
+            width: 40px;
+            height: 40px;
+            border: none;
+            background-color: transparent;
+            color: rgb(0, 0, 0);
+            font-size: 1.4rem;
+            //display: none;
+            &:hover {
+              color: rgb(233, 108, 108);
+            }
+          }
+         }
+        

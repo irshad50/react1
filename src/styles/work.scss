@@ -1,0 +1,77 @@
+
+
+#work{
+ width: 100%;
+ height: 100vh;
+ padding: 7rem;
+ > h2 {
+    //width: fit-content;
+    border-bottom: 1px solid black;
+    // padding: 0.2rem;
+    // margin-top: 1px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+ }
+
+>section {
+    // margin-top: 0rem;
+    width: 100%;
+    height: 90%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > article {
+        width: 50%;
+        height: 30vmax;
+    }
+    .workItem{
+        overflow-y: auto;
+        height: 20vmax;
+        width: 40%;
+        margin: auto;
+        background-color: black;
+        display: flex;
+        padding: 2rem;
+        box-shadow:  0 0 2px 1px color red;
+
+        
+
+        >img {
+            border-radius: 10px;
+            height: 338px;
+            object-fit: cover;
+        
+        }
+        >aside {
+         width: 60%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+
+         >p{
+            letter-spacing: 3px;
+            line-height: 180px;
+            margin: 2rem;
+
+         }
+         >a{
+            background-color: black;
+            padding: 0.7rem 2rem;
+            margin: 2rem;
+            color: yellow;
+            transition: all 0.5s;
+            &:hover{
+                background-color: red;
+            }
+         }
+
+        }
+
+    }
+ }
+}
